@@ -1,0 +1,121 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #eed3ee;
+  font-family: Georgia, serif;
+}
+p {
+  color: #9A5311;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, serif;
+  padding: 60px;
+}
+h1 {
+  color: #6D0101;
+  text-align: center;
+  font-size: 50px;
+   font-family: Georgia, serif;
+}
+
+h2 {
+  color: #6D0101;
+  text-align: center;
+  margin-top: 3px;
+  font-size: 30px;
+   font-family: Georgia, serif;
+}
+h2:hover {
+  color: hotpink;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.biography {
+  color: #9A5311;
+  font-size: 20px;
+  text-align: center;
+  font-family: Georgia, serif;
+  padding: 60px
+}
+.card {
+  background-color: #EFF4E0;
+  border: 1px solid #EDA0FE;
+  padding: 20px 20px 20px 20px;
+  flex: 1 1 200px; 
+  max-width: 300px;
+  box-shadow: 0 2px 4px #5b4efe;
+  border-radius: 7px;
+ 
+ 
+}
+
+div {
+  text-align: center;
+  margin-top: -20px;
+}
+
+ul{
+  color: #9A5311;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
+li{margin-left: 5px;
+  margin-right: 10px;}
+
+ol{
+  color: #9A5311;
+  font-size: 25px;
+  margin-left: 5px;
+  margin-right: 10px;
+  font-family: Georgia, serif;
+  text-align: left
+}
+a:link {
+  color: #6D0101;
+}
+a:visited {
+  color: #c8a3ff;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+
+
+.image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #5b4efe;
+}
+
+
+.image img:hover {
+  transform: scale(1.05);
+}
+.card {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.paragraph {
+  color: #9A5311;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Georgia, serif;
+  padding: 60px;
+}
